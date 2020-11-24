@@ -115,3 +115,16 @@ body,
 .list-search {
   display: none !important;
 }
+
+
+/*
+  Message styling fixes
+*/
+.chat-messages .message .message-body,
+.chat-messages .message .message-header .nickname {
+  margin-left: 70px !important;
+}
+
+.chat-messages .message .message-header .avatar{
+  width: 70px !important;
+}

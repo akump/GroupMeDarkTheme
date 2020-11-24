@@ -16,7 +16,9 @@ function checkDOMChange() {
       }
     }
   }
-  setTimeout(checkDOMChange, 100);
+  if (nicknameElements.length < 1000) {
+    setTimeout(checkDOMChange, 200);
+  } 
 }
 
 checkDOMChange();
