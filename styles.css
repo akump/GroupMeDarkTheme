@@ -1,0 +1,117 @@
+/*
+  Color styles
+*/
+.message,
+.chat-messages,
+.timestamp-divider,
+.message-composer,
+#page,
+.tray-header .row,
+.list-search,
+.pillar,
+.groupme-list,
+.gm-loading-overlay,
+#app-loading,
+.dropdown-menu,
+#tray .tray-list,
+.modal-content,
+.modal-body,
+body,
+.poll-nav,
+.popular-timestamp,
+.alpha-header,
+.change-phone-number .well,
+.inline-tweet {
+  background-color: #232323 !important;
+}
+
+.chat-menu {
+  background-color: #292a2d !important;
+}
+
+.list-search input {
+  background-color: lightgray !important;
+}
+
+.chat-header,
+.chat-group-action-popover {
+  background-color: #292a2d !important;
+}
+
+.pillar .tab.active,
+.groupme-list .list-item:hover,
+.groupme-list .list-item.active,
+.list-item.selected,
+.logo:hover,
+.member:hover {
+  background-color: #292a2d !important;
+}
+
+.groupme-list .list-item.active:hover {
+  background-color: #424242 !important;
+}
+
+/*
+  Border styles
+*/
+* {
+  border-color: #37383a !important;
+}
+
+#chats .chat-header {
+  border: none !important;
+}
+
+/*
+  Text color
+*/
+.text,
+.message-composer,
+.empty_group h3,
+.nickname,
+.timestamp-divider,
+.tray-header h3,
+.chat-name,
+.mention,
+.user-settings,
+.user-settings h4,
+.chat-menu .list span,
+.member span,
+.modal-title,
+#modal-title,
+.modal-body p,
+.modal-body span,
+.group-settings .setting-block #MuteLabel,
+.modal-body .poll-nav button,
+.alpha-header,
+.change-phone-number p,
+.change-phone-number h1,
+.tweet-content a,
+.tweet-content p,
+.user-profile p,
+.user-profile span,
+.user-profile div,
+.link-summary,
+.link-wrapper span {
+  color: rgb(232, 234, 237) !important;
+}
+
+/*
+  Remove from UI or slight tweaks 
+*/
+#chats .chat-header .dropdown-menu {
+  margin: -10px 0px 0px 0px !important;
+}
+
+.chat-header {
+  background-image: none !important;
+}
+
+.caret,
+.skype-button-img {
+  visibility: hidden !important;
+}
+
+.list-search {
+  display: none !important;
+}
