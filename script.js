@@ -1,5 +1,5 @@
 const yourNicknames = [];
-// 'Andrew Kump', 'Irelia one trick btw', 'Drevv', 'Brovid-19', 'Andwemw 4.2.0'
+// 'Andrew Kump', 'Irelia one trick btw', 'Drevv', 'Brovid-19'
 let cachedLength = 0;
 
 function checkDOMChange() {
