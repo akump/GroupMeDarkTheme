@@ -21,7 +21,8 @@ body,
 .popular-timestamp,
 .alpha-header,
 .change-phone-number .well,
-.inline-tweet {
+.inline-tweet,
+.pop-over {
   background-color: #232323 !important;
 }
 
