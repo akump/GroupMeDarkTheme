@@ -1,4 +1,3 @@
-![Alt text](example_pic.png?raw=true "Title")
 
 # Install
 
@@ -16,6 +15,10 @@ const yourNicknames = ['Andrew Kump', 'Irelia one trick btw', 'Drevv', 'Brovid-1
 3. `chrome://extensions` in Chrome
 4. Click 'Load unpacked'
 5. Navigate in file explorer to where you cloned the repo e.g. `D:\git\GroupMeDarkTheme`
+
+
+![Alt text](example_pic.png?raw=true "Title")
+
 
 
 
