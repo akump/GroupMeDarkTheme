@@ -126,6 +126,7 @@ body,
   margin-left: 70px !important;
 }
 
-.chat-messages .message .message-header .avatar{
+.chat-messages .message .message-header .avatar,
+.chat-messages .message.system .message-header{
   width: 70px !important;
 }
