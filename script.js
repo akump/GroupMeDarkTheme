@@ -1,4 +1,5 @@
-const yourNicknames = ['Andrew Kump', 'Irelia one trick btw', 'Drevv', 'Brovid-19', 'Andwemw 4.2.0'];
+const yourNicknames = [];
+// 'Andrew Kump', 'Irelia one trick btw', 'Drevv', 'Brovid-19'
 let cachedLength = 0;
 
 function checkDOMChange() {
@@ -18,7 +19,7 @@ function checkDOMChange() {
   }
   if (nicknameElements.length < 1000) {
     setTimeout(checkDOMChange, 200);
-  } 
+  }
 }
 
 checkDOMChange();
