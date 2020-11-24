@@ -1,11 +1,10 @@
 const yourNicknames = [];
-// 'Andrew Kump', 'Irelia one trick btw', 'Drevv', 'Brovid-19'
+// 'Andrew Kump', 'Irelia one trick btw', 'Drevv', 'Brovid-19', 'Andwemw 4.2.0'
 let cachedLength = 0;
 
 function checkDOMChange() {
   let nicknameElements = document.getElementsByClassName('nickname');
 
-  // Do we have anything new? 
   if (nicknameElements.length !== cachedLength) {
     cachedLength = nicknameElements.length;
     for (element of nicknameElements) {
@@ -17,7 +16,7 @@ function checkDOMChange() {
       }
     }
   }
-  if (nicknameElements.length < 1000) {
+  if (nicknameElements.length < 1000 && yourNicknames.length > 0) {
     setTimeout(checkDOMChange, 200);
   }
 }
