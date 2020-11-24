@@ -19,7 +19,7 @@ const yourNicknames = ['Andrew Kump', 'Irelia one trick btw', 'Drevv', 'Brovid-1
 
 # Potential issues
 1. Scroll bars on all machines
-2. Performance if you leave GroupMe afk for hours. Currently this is negative by just shutting the extension off, but I'd prefer that not to work that way
+2. Performance if you leave GroupMe afk for hours. Currently this is negated by just shutting the extension off, but I'd prefer that not to work that way
 3. Random screens no one ever goes to - last 10% of CSS
    1. Calendar
    2. Contacts
