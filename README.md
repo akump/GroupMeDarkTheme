@@ -12,9 +12,9 @@ Optional
 const yourNicknames = ['Andrew Kump', 'Irelia one trick btw', 'Drevv', 'Brovid-19'];
 ```
 
-3. `chrome://extensions` in Chrome
-4. Click 'Load unpacked'
-5. Navigate in file explorer to where you cloned the repo e.g. `D:\git\GroupMeDarkTheme`
+1. [chrome://extensions](chrome://extensions)
+2. Click 'Load unpacked'
+3. Navigate in file explorer to where you cloned the repo e.g. `D:\git\GroupMeDarkTheme`
 
 
 ![Alt text](example_pic2.png?raw=true "Title")
