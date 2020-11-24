@@ -1,3 +1,5 @@
+![Alt text](example_pic.png?raw=true "Title")
+
 # Install
 
 1. `git clone https://github.com/akump/GroupMeDarkTheme.git`
