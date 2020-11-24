@@ -4,7 +4,7 @@
 
 Optional
 
-   2. Edit line 1 of script.js to include your GroupMe nicknames to highlight your messages in a different color. Note: feel free to hack this code to meet your performance needs. Currently, it will cut off at 1000 messages and require a page refresh to work again.
+   2. Edit line 1 of script.js to include your GroupMe nicknames to highlight your messages in a different color. Note: feel free to hack this code to meet your performance needs. Currently, it will cut off at 1000 messages in the DOM and require a page refresh to work again.
 
    
 ```
