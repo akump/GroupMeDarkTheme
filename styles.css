@@ -122,7 +122,10 @@ body,
   Message styling fixes
 */
 .chat-messages .message .message-body,
-.chat-messages .message .message-header .nickname {
+.chat-messages .message .message-header .nickname,
+.chat-messages .message .failed, 
+.chat-messages .message .message-sent, 
+.chat-messages .message .message-read {
   margin-left: 70px !important;
 }
 
