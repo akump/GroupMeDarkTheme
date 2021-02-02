@@ -1,8 +1,7 @@
 const yourNicknames = [];
-// 'Andrew Kump', 'Irelia one trick btw', 'Drevv', 'Brovid-19'
 let cachedLength = 0;
 
-function checkDOMChange() {
+const checkDOMChange = function () {
   let nicknameElements = document.getElementsByClassName('nickname');
 
   if (nicknameElements.length !== cachedLength) {
@@ -10,9 +9,7 @@ function checkDOMChange() {
     for (element of nicknameElements) {
       if (yourNicknames.includes(element.textContent)) {
         let messageElement = element.closest('.message');
-        if (messageElement) {
-          messageElement.setAttribute('style', 'background-color: #292a2d !important;');
-        }
+        if (messageElement) messageElement.setAttribute('style', 'background-color: #292a2d !important;');
       }
     }
   }
