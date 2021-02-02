@@ -22,7 +22,9 @@ body,
 .alpha-header,
 .change-phone-number .well,
 .inline-tweet,
-.pop-over {
+.pop-over,
+.ghost,
+.notification {
   background-color: #232323 !important;
 }
 
@@ -93,7 +95,8 @@ body,
 .user-profile span,
 .user-profile div,
 .link-summary,
-.link-wrapper span {
+.link-wrapper span,
+.message-content {
   color: rgb(232, 234, 237) !important;
 }
 
@@ -132,4 +135,8 @@ body,
 .chat-messages .message .message-header .avatar,
 .chat-messages .message.system .message-header{
   width: 70px !important;
+}
+
+.ghost {
+  margin-left: 25px !important;
 }
