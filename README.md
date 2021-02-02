@@ -17,7 +17,7 @@ const yourNicknames = ['Andrew Kump', 'Irelia one trick btw', 'Drevv', 'Brovid-1
 5. Navigate in file explorer to where you cloned the repo e.g. `D:\git\GroupMeDarkTheme`
 
 
-![Alt text](example_pic2.png?raw=true "Title")
+![Alt text](example_pic.png?raw=true "Title")
 
 
 
