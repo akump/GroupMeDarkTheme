@@ -1,16 +1,13 @@
 {
   "name": "groupmedarktheme",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "description": "Dark theme for the GroupMe web application",
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/akump/GroupMeDarkTheme.git"
   },
-  "author": "",
+  "author": "Andrew Kump",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/akump/GroupMeDarkTheme/issues"
