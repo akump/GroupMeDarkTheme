@@ -25,45 +25,27 @@ body,
 .pop-over,
 .ghost,
 .notification {
-  background-color: #232323 !important;
-}
+  background-color: #232323 !important; }
 
-.chat-menu {
-  background-color: #292a2d !important;
-}
-
-.list-search input {
-  background-color: lightgray !important;
-}
-
+.chat-menu,
 .chat-header,
-.chat-group-action-popover {
-  background-color: #292a2d !important;
-}
-
+.chat-group-action-popover,
 .pillar .tab.active,
 .groupme-list .list-item:hover,
 .groupme-list .list-item.active,
 .list-item.selected,
 .logo:hover,
 .member:hover {
-  background-color: #292a2d !important;
-}
+  background-color: #292a2d !important; }
+
+.list-search input {
+  background-color: #D3D3D3 !important; }
 
 .groupme-list .list-item.active:hover {
-  background-color: #424242 !important;
-}
+  background-color: #424242 !important; }
 
-/*
-  Border styles
-*/
-* {
-  border-color: #37383a !important;
-}
-
-#chats .chat-header {
-  border: none !important;
-}
+.emoji-wysiwyg-editor:focus {
+  outline: 0 !important; }
 
 /*
   Text color
@@ -98,46 +80,46 @@ body,
 .link-wrapper span,
 .message-content,
 .close {
-  color: rgb(232, 234, 237) !important;
-}
+  color: #e8eaed !important; }
+
+/*
+  Border styles
+*/
+* {
+  border-color: #37383a !important; }
+
+#chats .chat-header {
+  border: none !important; }
 
 /*
   Remove from UI or slight tweaks 
 */
 #chats .chat-header .dropdown-menu {
-  margin: -10px 0px 0px 0px !important;
-}
+  margin: -10px 0px 0px 0px !important; }
 
 .chat-header {
-  background-image: none !important;
-}
+  background-image: none !important; }
 
 .caret,
 .skype-button-img {
-  visibility: hidden !important;
-}
+  visibility: hidden !important; }
 
 .list-search {
-  display: none !important;
-}
-
+  display: none !important; }
 
 /*
   Message styling fixes
 */
 .chat-messages .message .message-body,
 .chat-messages .message .message-header .nickname,
-.chat-messages .message .failed, 
-.chat-messages .message .message-sent, 
+.chat-messages .message .failed,
+.chat-messages .message .message-sent,
 .chat-messages .message .message-read {
-  margin-left: 70px !important;
-}
+  margin-left: 70px !important; }
 
 .chat-messages .message .message-header .avatar,
-.chat-messages .message.system .message-header{
-  width: 70px !important;
-}
+.chat-messages .message.system .message-header {
+  width: 70px !important; }
 
 .ghost {
-  margin-left: 25px !important;
-}
+  margin-left: 25px !important; }

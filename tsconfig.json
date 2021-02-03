@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "lib": ["es5", "es6", "es7", "dom", "dom.iterable"],
+        "module": "commonjs",
+        "target": "es2016",
+        "jsx": "preserve",
+        "strictFunctionTypes": true,
+        "outDir": "dist"
+    },
+    "exclude": [
+        "node_modules",
+        "**/node_modules/*"
+    ]
+}

@@ -2,11 +2,9 @@
   "manifest_version": 2,
   "name": "GroupMe Dark Theme",
   "version": "1.0.0",
-  "content_scripts": [
-    {
-      "matches": ["https://web.groupme.com/*"],
-      "js": ["script.js"],
-      "css": ["styles.css"]
-    }
-  ]
+  "content_scripts": [{
+    "matches": ["https://web.groupme.com/*"],
+    "js": ["dist/script.js"],
+    "css": ["dist/styles.css"]
+  }]
 }
