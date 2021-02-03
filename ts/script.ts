@@ -1,4 +1,4 @@
-const yourNicknames: Array<string> = ["Andrew Kump", "Drevv", "Brovid-19", "Andrevv", "AOC simp, Pisces, AAPL holder"];
+const yourNicknames: Array<string> = ["Andrew Kump", "Irelia one trick btw", "Drevv", "Brovid-19", "Andrevv"];
 let cachedLength: number = 0;
 
 const highlightNameChecker = function () {

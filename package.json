@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Dark theme for the GroupMe web application",
   "scripts": {
-    "build": "npx tsc && node-sass css/styles.scss dist/styles.css"
+    "build": "npx tsc && node-sass ./scss/styles.scss ./dist/styles.css"
   },
   "repository": {
     "type": "git",

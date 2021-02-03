@@ -1,4 +1,4 @@
-const yourNicknames = ["Andrew Kump", "Drevv", "Brovid-19", "Andrevv", "AOC simp, Pisces, AAPL holder"];
+const yourNicknames = ["Andrew Kump", "Irelia one trick btw", "Drevv", "Brovid-19", "Andrevv"];
 let cachedLength = 0;
 const highlightNameChecker = function () {
     let nicknameElements = document.getElementsByClassName("nickname");
