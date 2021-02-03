@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Dark theme for the GroupMe web application",
   "scripts": {
-    "build": "npx tsc && node-sass ./scss/styles.scss ./dist/styles.css"
+    "build": "npx tsc && node-sass ./scss/styles.scss ./dist/styles.css",
+    "ts-watch": "tsc -w",
+    "scss-watch": "sass --no-source-map --watch scss/styles.scss:dist/styles.css"
   },
   "repository": {
     "type": "git",
@@ -17,6 +19,7 @@
   "homepage": "https://github.com/akump/GroupMeDarkTheme#readme",
   "dependencies": {
     "node-sass": "^5.0.0",
+    "sass": "^1.32.6",
     "typescript": "^4.1.3"
   }
 }
