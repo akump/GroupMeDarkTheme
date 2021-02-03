@@ -2,9 +2,14 @@
   "manifest_version": 2,
   "name": "GroupMe Dark Theme",
   "version": "1.0.0",
+  "description": "A chrome extension for GroupMe's website",
   "content_scripts": [{
     "matches": ["https://web.groupme.com/*"],
     "js": ["dist/script.js"],
     "css": ["dist/styles.css"]
-  }]
+  }],
+  "icons": {
+    "16": "images/icon.png",
+    "128": "images/icon.png"
+  }
 }
