@@ -2,7 +2,7 @@
 # Install
 
 1. `git clone https://github.com/akump/GroupMeDarkTheme.git`
-2. **Optional** Edit line 1 of ts/script.ts to include your GroupMe nicknames to highlight your messages in a different color. Note: feel free to hack this code to meet your performance needs. Currently, it will cut off at 1000 messages in the DOM and require a page refresh to work again. Then run `npm install` and `npm run build`
+2. **Optional**: Edit line 1 of ts/script.ts to include your GroupMe nicknames to highlight your messages in a different color. Note: feel free to hack this code to meet your performance needs. Currently, it will cut off at 1000 messages in the DOM and require a page refresh to work again. Then run `npm install` and `npm run build`
 
 ```ts
 const yourNicknames: Array<string> = ['Andrew Kump', 'Irelia one trick', 'Drevv', 'Brovid-19'];
