@@ -91,7 +91,11 @@ body,
 .link-summary,
 .link-wrapper span,
 .message-content,
-.close {
+.close,
+.message-composer .composer-layout .dropdown-menu-right li button span,
+.message-composer .composer-layout .dropdown-menu-right li .button span,
+.message-composer .composer-layout .dropdown-menu-right li button .wrap-icon,
+.message-composer .composer-layout .dropdown-menu-right li .button .wrap-icon {
     color: $text-color !important;
 }
 
