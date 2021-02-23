@@ -1,5 +1,5 @@
 
-# Install
+# Install option #1
 
 1. `git clone https://github.com/akump/GroupMeDarkTheme.git`
 2. **Optional**: Edit line 1 of ts/script.ts to include your GroupMe nicknames to highlight your messages in a different color. Note: feel free to hack this code to meet your performance needs. Currently, it will cut off at 1000 messages in the DOM and require a page refresh to work again. Then run `npm install` and `npm run build`
@@ -11,6 +11,11 @@ const yourNicknames: Array<string> = ['Andrew Kump', 'Irelia one trick', 'Drevv'
 3. `chrome://extensions` in Chrome
 4. Click 'Load unpacked'
 5. Navigate in file explorer to where you cloned the repo e.g. `D:\git\GroupMeDarkTheme`
+
+# Install option #2
+
+1. Install from [Chrome Web Store](https://chrome.google.com/webstore/detail/groupme-dark-theme/jfjijccjhngpphnfjbgnnhnogkamikme?hl=en)
+2. **Note**: If you install from the Chrome Web Store, highlighting your own messages will not work. This configuration point from the actual Chrome Web Store is a WIP.
 
 ![Alt text](images/example_pic.png?raw=true "Title")
 
