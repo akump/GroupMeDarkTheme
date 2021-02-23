@@ -24,7 +24,8 @@ body,
 .inline-tweet,
 .pop-over,
 .ghost,
-.notification {
+.notification,
+.tray-header {
   background-color: #232323 !important; }
 
 .chat-menu,
@@ -94,6 +95,9 @@ body,
 
 #chats .chat-header {
   border: none !important; }
+
+.tray-header {
+  border-bottom: 1px solid; }
 
 /*
   Remove from UI or slight tweaks 
