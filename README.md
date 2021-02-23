@@ -32,3 +32,8 @@ The build will automatically get run if you run the below commands before starti
 * .scss files -> `npm run scss-watch`
 
 This builds the dist folder which is where the Chrome extension actually pulls files. Reload the extension, and then reload groupme.com to see your changes.
+
+# How to update the Chrome dev store
+
+1. Update package.json/manfiest.json to new version
+2. Zip manifest.json/dist/images and upload that to chrome dev store
