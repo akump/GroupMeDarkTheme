@@ -2,7 +2,7 @@ const documentEvents = function () {
   document.getElementById('save-button').addEventListener('click', () => {
     const namesInput = document.getElementById('names-input') as HTMLInputElement;
     const inputtedValue = namesInput.value;
-    chrome.storage.sync.set({inputtedNicknames: inputtedValue}, function () {
+    chrome.storage.sync.set({ inputtedNicknames: inputtedValue }, function () {
       const savedTextElement = document.getElementById('saved-text') as HTMLInputElement;
       if (savedTextElement.innerText === '') {
         savedTextElement.innerText = 'Saved! Please refresh GroupMe.';
@@ -13,7 +13,7 @@ const documentEvents = function () {
     });
   });
 
-  chrome.storage.sync.get(['inputtedNicknames'], function ({inputtedNicknames}) {
+  chrome.storage.sync.get(['inputtedNicknames'], function ({ inputtedNicknames }) {
     const namesInput = document.getElementById('names-input') as HTMLInputElement;
     if (inputtedNicknames) {
       namesInput.setAttribute('value', inputtedNicknames);
