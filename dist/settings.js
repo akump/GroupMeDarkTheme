@@ -2,7 +2,7 @@ const documentEvents = function () {
     document.getElementById('save-button').addEventListener('click', () => {
         const namesInput = document.getElementById('names-input');
         const inputtedValue = namesInput.value;
-        chrome.storage.sync.set({ 'inputtedNicknames': inputtedValue }, function () {
+        chrome.storage.sync.set({ inputtedNicknames: inputtedValue }, function () {
             const savedTextElement = document.getElementById('saved-text');
             if (savedTextElement.innerText === '') {
                 savedTextElement.innerText = 'Saved! Please refresh GroupMe.';
