@@ -20,7 +20,9 @@ const highlightNameChecker = function () {
 
 
 chrome.storage.sync.get(['inputtedNicknames'], function({ inputtedNicknames }) {
-  const inputedtNicknames = inputtedNicknames.split(";").map((nickname: string) => nickname.trim());
-  usersNicknames = [...inputedtNicknames]; 
-  highlightNameChecker();
+  if(inputtedNicknames){
+    const inputedtNicknames = inputtedNicknames.split(";").map((nickname) => nickname.trim());
+    usersNicknames = [...inputedtNicknames];
+    highlightNameChecker();
+  }
 });
