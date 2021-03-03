@@ -7,7 +7,7 @@ const documentEvents = function () {
             if (savedTextElement.innerText === '') {
                 savedTextElement.innerText = 'Saved! Please refresh GroupMe.';
             }
-            setTimeout(function () {
+            setTimeout(() => {
                 savedTextElement.innerText = '';
             }, 5000);
         });
