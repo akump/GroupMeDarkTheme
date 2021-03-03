@@ -110,7 +110,11 @@ body,
 
 
 #chats .chat-header {
-    border: none !important;
+    border-top: none !important;
+    border-right: none !important;
+    border-left: none !important;
+    border-bottom: 1px solid #37383a !important;
+    padding-bottom: 1px !important;
 }
 
 .tray-header {
