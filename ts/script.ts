@@ -9,8 +9,9 @@ const highlightNameChecker = function () {
     for (let element of nicknameElements) {
       if (usersNicknames.includes(element.textContent)) {
         let messageElement: Element = element.closest('.message');
-        if (messageElement)
+        if (messageElement) {
           messageElement.setAttribute('style', 'background-color: #292a2d !important;');
+        }
       }
     }
   }
@@ -21,8 +22,7 @@ const highlightNameChecker = function () {
 
 chrome.storage.sync.get(['inputtedNicknames'], function ({ inputtedNicknames }) {
   if (inputtedNicknames) {
-    const inputedtNicknames = inputtedNicknames.split(';').map(nickname => nickname.trim());
-    usersNicknames = [...inputedtNicknames];
+    usersNicknames = inputtedNicknames.split(';').map(nickname => nickname.trim());
     highlightNameChecker();
   }
 });
