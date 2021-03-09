@@ -117,7 +117,8 @@ body,
 .skype-button-img {
   visibility: hidden !important; }
 
-.list-search {
+.list-search,
+#typing {
   display: none !important; }
 
 /*
