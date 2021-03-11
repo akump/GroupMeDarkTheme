@@ -12,7 +12,6 @@
 .groupme-list,
 .gm-loading-overlay,
 #app-loading,
-.dropdown-menu,
 #tray .tray-list,
 .modal-content,
 .modal-body,
@@ -85,7 +84,8 @@ body,
 .message-composer .composer-layout .dropdown-menu-right li .button span,
 .message-composer .composer-layout .dropdown-menu-right li button .wrap-icon,
 .message-composer .composer-layout .dropdown-menu-right li .button .wrap-icon,
-.list-heading {
+.list-heading,
+.emoji-menu .emoji-preview .emoji-label {
   color: #e8eaed !important; }
 
 /*
@@ -121,6 +121,13 @@ body,
 #typing {
   display: none !important; }
 
+.dropdown-menu {
+  border: none !important;
+  background-color: #292a2d !important; }
+
+.chat-menu {
+  border-top: 2px solid !important; }
+
 /*
   Message styling fixes
 */
@@ -137,3 +144,20 @@ body,
 
 .ghost {
   margin-left: 25px !important; }
+
+/*
+  Emoji picker
+*/
+.emoji-menu .emoji-preview,
+.emoji-menu .pack-container.currentPack,
+.emoji-menu .emoji-menu-pointer,
+.emoji-menu .pack-switcher .slider-control,
+.emoji-menu .pack-switcher {
+  background-color: #404040 !important;
+  color: #e8eaed !important; }
+
+.emoji-menu .emoji-preview {
+  border-bottom: 5px solid #37383a !important; }
+
+.emoji-menu .pack-container {
+  border-top: 5px solid #37383a !important; }
