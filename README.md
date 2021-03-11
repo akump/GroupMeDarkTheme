@@ -28,3 +28,9 @@ This builds the dist folder which is where the Chrome extension actually pulls f
 1. Update package.json/manfiest.json to new version
 2. `npm run build-zip`
 3. Upload extension.zip to Chrome web store
+
+
+# TODO
+
+1. Uglify/minify production code
+2. More random css
