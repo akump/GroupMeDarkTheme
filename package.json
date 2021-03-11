@@ -4,6 +4,7 @@
   "description": "Dark theme for the GroupMe web application",
   "scripts": {
     "build": "npx tsc && node-sass ./scss/styles.scss ./dist/styles.css",
+    "build-zip": "gulp",
     "ts-watch": "tsc -w",
     "scss-watch": "sass --no-source-map --watch scss/styles.scss:dist/styles.css"
   },
@@ -18,8 +19,11 @@
   },
   "homepage": "https://github.com/akump/GroupMeDarkTheme#readme",
   "prettier": "prettier-airbnb-config",
+  "type": "module",
   "dependencies": {
     "@types/chrome": "^0.0.133",
+    "gulp": "^4.0.2",
+    "gulp-zip": "^5.1.0",
     "node-sass": "^5.0.0",
     "sass": "^1.32.6",
     "typescript": "^4.1.3"
