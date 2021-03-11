@@ -2,7 +2,9 @@
 
 Download from [Chrome Web Store](https://chrome.google.com/webstore/detail/groupme-dark-theme/jfjijccjhngpphnfjbgnnhnogkamikme?hl=en)
 
-![Alt text](images/example_pic.png?raw=true "Title")
+Want new features faster? [Buy me a coffee](https://www.buymeacoffee.com/akump) ☕
+
+![Alt text](images/example_pic.png?raw=true "Title") 
 
 # Potential issues
 
