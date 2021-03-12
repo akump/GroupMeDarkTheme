@@ -1,0 +1,8 @@
+{
+    // The following will hide the js and map files in the editor
+    "files.exclude": {
+        "dist": true,
+        "node_modules": true,
+        "production": true
+    }
+}
