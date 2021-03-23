@@ -98,7 +98,8 @@ body,
 .message-composer .composer-layout .dropdown-menu-right li button .wrap-icon,
 .message-composer .composer-layout .dropdown-menu-right li .button .wrap-icon,
 .list-heading,
-.emoji-menu .emoji-preview .emoji-label {
+.emoji-menu .emoji-preview .emoji-label,
+.dropdown-menu button {
     color: $text-color !important;
 }
 
@@ -122,8 +123,16 @@ body,
     border-bottom: 1px solid;
 }
 
+.dropup .dropdown-menu.dropdown-with-pointer:after {
+    border-top: 6px solid $primary-background !important;
+}
+
+.pop-over:after {
+    border-top: 6px solid $primary-background !important;
+}
+
 /*
-  Remove from UI or slight tweaks 
+  Remove from UI or slight tweaks
 */
 #chats .chat-header .dropdown-menu {
     margin: -10px 0px 0px 0px !important;
@@ -150,6 +159,10 @@ body,
 
 .chat-menu {
     border-top: 2px solid !important;
+}
+
+.chat-messages .pop-over {
+    right: 30px !important;
 }
 
 /*

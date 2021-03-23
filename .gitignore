@@ -1,3 +1,4 @@
 node_modules
 production
+.DS_Store
 dist
