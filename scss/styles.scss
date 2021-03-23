@@ -181,9 +181,17 @@ body,
     width: 70px !important;
 }
 
-.ghost {
-    margin-left: 25px !important;
+.ghost img {
+    right: 30px !important;
+    border-top: 6px solid $primary-background !important;
+    background-color: $primary-background !important;
 }
+
+.ghost,
+.ghost img {
+    display: none !important;
+}
+
 
 /*
   Emoji picker
