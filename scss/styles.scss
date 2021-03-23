@@ -32,7 +32,8 @@ body,
 .pop-over,
 .ghost,
 .notification,
-.tray-header {
+.tray-header,
+.poll-create .layout{
     background-color: $primary-background !important;
 }
 
@@ -99,8 +100,14 @@ body,
 .message-composer .composer-layout .dropdown-menu-right li .button .wrap-icon,
 .list-heading,
 .emoji-menu .emoji-preview .emoji-label,
-.dropdown-menu button {
+.dropdown-menu button,
+.calendar-create,
+.poll-create .layout{
     color: $text-color !important;
+}
+
+.photo-upload .buttonText {
+    color: $primary-background !important;
 }
 
 /*
