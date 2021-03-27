@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "GroupMe Dark Theme",
-  "version": "1.1.3",
+  "version": "1.1.4",
   "description": "A chrome extension to support a dark theme for GroupMe's website",
   "content_scripts": [{
     "matches": ["https://web.groupme.com/*"],
@@ -15,6 +15,7 @@
   "browser_action": {
     "default_popup": "dist/settings.html"
   },
+  "content_security_policy": "script-src 'self' https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js; object-src 'self'",
   "permissions": [
     "storage"
   ]
