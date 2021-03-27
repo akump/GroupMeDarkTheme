@@ -33,6 +33,4 @@ This builds the dist folder which is where the Chrome extension actually pulls f
 
 
 # TODO
-
-1. Uglify/minify production code
-2. More random css
+1. More random css
