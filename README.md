@@ -1,6 +1,6 @@
-# Download
+# Installation
 
-Download from the [Chrome Web Store](https://chrome.google.com/webstore/detail/groupme-dark-theme/jfjijccjhngpphnfjbgnnhnogkamikme?hl=en)
+Install from the [Chrome Web Store](https://chrome.google.com/webstore/detail/groupme-dark-theme/jfjijccjhngpphnfjbgnnhnogkamikme?hl=en)
 
 [Support me by buying me a coffee](https://www.buymeacoffee.com/akump) ☕
 
