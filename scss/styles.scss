@@ -33,7 +33,7 @@ body,
 .ghost,
 .notification,
 .tray-header,
-.poll-create .layout{
+.poll-create .layout {
     background-color: $primary-background !important;
 }
 
@@ -102,7 +102,7 @@ body,
 .emoji-menu .emoji-preview .emoji-label,
 .dropdown-menu button,
 .calendar-create,
-.poll-create .layout{
+.poll-create .layout {
     color: $text-color !important;
 }
 
@@ -136,6 +136,10 @@ body,
 
 .pop-over:after {
     border-top: 6px solid $primary-background !important;
+}
+
+.pages.has-server-pages .server-pages .page:first-child .message:first-child .likes-container .pop-over:after {
+    border-left: 6px solid $popup-background !important;
 }
 
 /*
