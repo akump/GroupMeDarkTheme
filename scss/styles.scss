@@ -33,7 +33,10 @@ body,
 .ghost,
 .notification,
 .tray-header,
-.poll-create .layout {
+.poll-create .layout,
+.poll-list,
+.poll-list .poll.poll-listing,
+.form-footer {
     background-color: $primary-background !important;
 }
 
@@ -102,13 +105,16 @@ body,
 .emoji-menu .emoji-preview .emoji-label,
 .dropdown-menu button,
 .calendar-create,
-.poll-create .layout {
+.poll-create .layout,
+.categories .btn-link {
     color: $text-color !important;
 }
 
-.photo-upload .buttonText {
+.photo-upload .buttonText,
+.results span {
     color: $primary-background !important;
 }
+
 
 /*
   Border styles
