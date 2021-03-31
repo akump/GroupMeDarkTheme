@@ -4,9 +4,9 @@ Install from the [Chrome Web Store](https://chrome.google.com/webstore/detail/gr
 
 [Support me by buying me a coffee](https://www.buymeacoffee.com/akump) ☕
 
-![Alt text](images/example_pic.png?raw=true "Title") 
+![Alt text](images/example_pic.png?raw=true "Title")
 
-# Potential issues
+## Potential issues
 
 1. Scroll bars on all machines
 2. Performance if you leave GroupMe afk for hours. Currently this is negated by just shutting the extension off, but I'd prefer that not to work that way
@@ -16,5 +16,6 @@ Install from the [Chrome Web Store](https://chrome.google.com/webstore/detail/gr
    3. Archives
    4. Campus Connect
 
-# TODO
+## TODO
+
 1. More random css
