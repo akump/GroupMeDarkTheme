@@ -106,7 +106,11 @@ body,
 .dropdown-menu button,
 .calendar-create,
 .poll-create .layout,
-.categories .btn-link {
+.categories .btn-link,
+.options label,
+.sub-title,
+.title,
+.pii-warning {
     color: $text-color !important;
 }
 
