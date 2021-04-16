@@ -48,7 +48,10 @@ body,
 .groupme-list .list-item.active,
 .list-item.selected,
 .logo:hover,
-.member:hover {
+.member:hover,
+.calendar-event .info-section,
+.calendar-event.event-attachment,
+.calendar-event.event-attachment .calendar-footer {
     background-color: $lighter-background !important;
 }
 
@@ -110,12 +113,17 @@ body,
 .options label,
 .sub-title,
 .title,
-.pii-warning {
+.pii-warning,
+.calendar-event p,
+.calendar-event .info-section .biline,
+.rsvp span {
     color: $text-color !important;
 }
 
 .photo-upload .buttonText,
-.results span {
+.results span,
+.calendar-event .date-badge .day,
+.calendar-event .date-badge .month {
     color: $primary-background !important;
 }
 
