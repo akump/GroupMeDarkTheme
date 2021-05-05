@@ -116,7 +116,8 @@ body,
 .pii-warning,
 .calendar-event p,
 .calendar-event .info-section .biline,
-.rsvp span {
+.rsvp span,
+.modal-body .content {
     color: $text-color !important;
 }
 
@@ -168,7 +169,7 @@ body,
 }
 
 .chat-header {
-    background-image: none !important;
+    background-blend-mode: soft-light !important;
 }
 
 .caret,
