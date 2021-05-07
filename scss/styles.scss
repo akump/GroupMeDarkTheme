@@ -7,8 +7,8 @@ $border-color: #37383a;
 $text-color: #e8eaed;
 
 /*
-  Color styles
-*/
+ * Color styles
+ */
 .message,
 .chat-messages,
 .timestamp-divider,
@@ -68,8 +68,8 @@ body,
 }
 
 /*
-  Text color
-*/
+ * Text color
+ */
 .text,
 .message-composer,
 .empty_group h3,
@@ -129,8 +129,8 @@ body,
 
 
 /*
-  Border styles
-*/
+ * Border styles
+ */
 * {
     border-color: $border-color !important;
 }
@@ -161,8 +161,8 @@ body,
 }
 
 /*
-  Remove from UI or slight tweaks
-*/
+ * Remove from UI or slight tweaks
+ */
 #chats .chat-header .dropdown-menu {
     margin: -10px 0px 0px 0px !important;
 }
@@ -195,8 +195,8 @@ body,
 }
 
 /*
-  Message styling fixes
-*/
+ * Message styling fixes
+ */
 .chat-messages .message .message-body,
 .chat-messages .message .message-header .nickname,
 .chat-messages .message .failed,
@@ -223,8 +223,8 @@ body,
 
 
 /*
-  Emoji picker
-*/
+ * Emoji picker
+ */
 .emoji-menu .emoji-preview,
 .emoji-menu .pack-container.currentPack,
 .emoji-menu .emoji-menu-pointer,
@@ -240,4 +240,24 @@ body,
 
 .emoji-menu .pack-container {
     border-top: 5px solid $border-color !important;
+}
+
+/*
+ * scrollbars
+ */
+
+ ::-webkit-scrollbar {
+    height: 12px;
+    width: 12px;
+    background: $primary-background;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #393812;
+    -webkit-border-radius: 1ex;
+    -webkit-box-shadow: 0px 1px 2px $primary-background;
+}
+
+::-webkit-scrollbar-corner {
+    background: $primary-background;
 }
