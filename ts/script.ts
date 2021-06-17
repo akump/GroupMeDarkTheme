@@ -1,5 +1,6 @@
 let usersNicknames: Array<string> = [];
 let cachedLength: number = 0;
+let useRainbowText = false;
 
 const highlightNameChecker = function () {
   let nicknameElements: HTMLCollectionOf<Element> = document.getElementsByClassName('nickname');
@@ -11,6 +12,11 @@ const highlightNameChecker = function () {
         let messageElement: Element = element.closest('.message');
         if (messageElement) {
           messageElement.setAttribute('style', 'background-color: #292a2d !important;');
+          if (useRainbowText) {
+            let [textElement] = messageElement.querySelectorAll('.text');
+            textElement.classList.add("rainbow-text");
+          }
+
         }
       }
     }
@@ -20,7 +26,15 @@ const highlightNameChecker = function () {
   }
 };
 
-chrome.storage.sync.get(['inputtedNicknames'], function ({ inputtedNicknames }) {
+chrome.storage.sync.get(['inputtedNicknames', 'rainbowTextEnabled'], function ({ inputtedNicknames, rainbowTextEnabled }) {
+  if (rainbowTextEnabled === undefined) {
+    chrome.storage.sync.set({
+      rainbowTextEnabled: false
+    }, () => { });
+    useRainbowText = false;
+  } else {
+    useRainbowText = rainbowTextEnabled;
+  }
   if (inputtedNicknames) {
     usersNicknames = inputtedNicknames.split(';').map(nickname => nickname.trim());
     highlightNameChecker();

@@ -251,7 +251,7 @@ body,
  * Scrollbars
  */
 
- ::-webkit-scrollbar {
+::-webkit-scrollbar {
     height: 10px !important;
     width: 10px !important;
     background: $scrollbar-background !important;
@@ -275,4 +275,34 @@ body,
 
 ::-webkit-scrollbar-corner {
     background: $scrollbar-background !important;
+}
+
+/*
+ * Rainbow
+ */
+
+.rainbow-text {
+    background: linear-gradient(to right,
+            #6666ff,
+            #0099ff,
+            #00ff00,
+            #ff3399,
+            #6666ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent !important;
+    animation: rainbow-text 6s ease-in-out infinite;
+    background-size: 400% 100%;
+}
+
+@keyframes rainbow-text {
+
+    0%,
+    100% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 100% 0;
+    }
 }
