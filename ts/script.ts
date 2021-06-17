@@ -13,8 +13,10 @@ const highlightNameChecker = function () {
         if (messageElement) {
           messageElement.setAttribute('style', 'background-color: #292a2d !important;');
           if (useRainbowText) {
-            let [textElement] = messageElement.querySelectorAll('.text');
-            textElement.classList.add("rainbow-text");
+            let [textElement] = messageElement.querySelectorAll('.message-text');
+            if (textElement && textElement.classList) {
+              textElement.classList.add("rainbow-text");
+            }
           }
 
         }
