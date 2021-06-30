@@ -4,7 +4,7 @@ Install from the [Chrome Web Store](https://chrome.google.com/webstore/detail/gr
 
 [Support me by buying me a coffee](https://www.buymeacoffee.com/akump) ☕
 
-![Alt text](images/example_pic.png?raw=true "Title")
+![Alt text](images/example_pic2.png?raw=true "Title")
 
 ## Potential issues
 
