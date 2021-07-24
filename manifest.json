@@ -1,22 +1,22 @@
 {
-  "manifest_version": 2,
-  "name": "GroupMe Dark Theme",
-  "version": "1.2.0",
-  "description": "A chrome extension to support a dark theme for GroupMe's website",
-  "content_scripts": [{
-    "matches": ["https://web.groupme.com/*"],
-    "js": ["dist/script.js"],
-    "css": ["dist/styles.css"]
-  }],
-  "icons": {
-    "16": "images/icon.png",
-    "128": "images/icon.png"
-  },
-  "browser_action": {
-    "default_popup": "dist/settings.html"
-  },
-  "content_security_policy": "script-src 'self' https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js; object-src 'self'",
-  "permissions": [
-    "storage"
-  ]
+    "manifest_version": 2,
+    "name": "GroupMe Dark Theme",
+    "version": "1.2.1",
+    "description": "A chrome extension to support a dark theme for GroupMe's website",
+    "content_scripts": [{
+        "matches": ["https://web.groupme.com/*"],
+        "js": ["dist/script.js"],
+        "css": ["dist/styles.css"]
+    }],
+    "icons": {
+        "16": "images/icon.png",
+        "128": "images/icon.png"
+    },
+    "browser_action": {
+        "default_popup": "dist/settings.html"
+    },
+    "content_security_policy": "script-src 'self' https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js; object-src 'self'",
+    "permissions": [
+        "storage"
+    ]
 }
