@@ -1,14 +1,14 @@
 $primary-background: #232323;
 $lighter-background: #292a2d;
-$gray-background: #D3D3D3;
+$gray-background: #d3d3d3;
 $popup-background: #404040;
 $hover: #424242;
 $border-color: #37383a;
 $text-color: #e8eaed;
+$dark-text-color: #232323;
 $scrollbar-background: #474747;
 $scrollbar-hover: #888888;
 $scrollbar-color: #646464;
-
 
 /*
  * Color styles
@@ -41,7 +41,7 @@ body,
 .poll-list,
 .poll-list .poll.poll-listing,
 .form-footer {
-    background-color: $primary-background !important;
+  background-color: $primary-background !important;
 }
 
 .chat-menu,
@@ -56,19 +56,19 @@ body,
 .calendar-event .info-section,
 .calendar-event.event-attachment,
 .calendar-event.event-attachment .calendar-footer {
-    background-color: $lighter-background !important;
+  background-color: $lighter-background !important;
 }
 
 .list-search input {
-    background-color: $gray-background !important;
+  background-color: $gray-background !important;
 }
 
 .groupme-list .list-item.active:hover {
-    background-color: $hover !important;
+  background-color: $hover !important;
 }
 
 .emoji-wysiwyg-editor:focus {
-    outline: 0 !important;
+  outline: 0 !important;
 }
 
 /*
@@ -121,82 +121,98 @@ body,
 .calendar-event p,
 .calendar-event .info-section .biline,
 .rsvp span,
-.modal-body .content {
-    color: $text-color !important;
+.modal-body .content,
+.dropdown-menu > li > a,
+.poll-create .left-fields .optionAddBtn .btn-default {
+  color: $text-color !important;
 }
 
 .photo-upload .buttonText,
 .results span,
 .calendar-event .date-badge .day,
-.calendar-event .date-badge .month {
-    color: $primary-background !important;
+.calendar-event .date-badge .month,
+.uib-day span,
+.uib-datepicker .uib-title,
+.uib-month span,
+.uib-year span,
+.glyphicon-chevron-right:before,
+.glyphicon-chevron-left:before,
+.calendar-event .title,
+.calendar-event .created-by,
+.calendar-event .date,
+.calendar-event .time-range span,
+.calendar-event .time-range {
+  color: $dark-text-color !important;
 }
-
 
 /*
  * Border styles
  */
 * {
-    border-color: $border-color !important;
+  border-color: $border-color !important;
 }
 
-
 #chats .chat-header {
-    border-top: none !important;
-    border-right: none !important;
-    border-left: none !important;
-    border-bottom: 1px solid #37383a !important;
-    padding-bottom: 1px !important;
+  border-top: none !important;
+  border-right: none !important;
+  border-left: none !important;
+  border-bottom: 1px solid #37383a !important;
+  padding-bottom: 1px !important;
 }
 
 .tray-header {
-    border-bottom: 1px solid;
+  border-bottom: 1px solid;
 }
 
 .dropup .dropdown-menu.dropdown-with-pointer:after {
-    border-top: 6px solid $primary-background !important;
+  border-top: 6px solid $primary-background !important;
 }
 
 .pop-over:after {
-    border-top: 6px solid $primary-background !important;
+  border-top: 6px solid $primary-background !important;
 }
 
-.pages.has-server-pages .server-pages .page:first-child .message:first-child .likes-container .pop-over:after {
-    border-left: 6px solid $popup-background !important;
+.pages.has-server-pages
+  .server-pages
+  .page:first-child
+  .message:first-child
+  .likes-container
+  .pop-over:after {
+  border-left: 6px solid $popup-background !important;
 }
 
 /*
  * Remove from UI or slight tweaks
  */
 #chats .chat-header .dropdown-menu {
-    margin: -10px 0px 0px 0px !important;
+  margin: -10px 0px 0px 0px !important;
 }
 
 .chat-header {
-    background-blend-mode: soft-light !important;
+  background-blend-mode: soft-light !important;
 }
 
 .caret,
 .skype-button-img {
-    visibility: hidden !important;
+  visibility: hidden !important;
 }
 
 .list-search,
 #typing {
-    display: none !important;
+  display: none !important;
 }
 
 .dropdown-menu {
-    border: none !important;
-    background-color: $lighter-background !important;
+  border: none !important;
+  background-color: $lighter-background !important;
 }
 
 .chat-menu {
-    border-top: 2px solid !important;
+  border-top: 2px solid !important;
 }
 
 .chat-messages .pop-over {
-    right: 30px !important;
+  right: 30px !important;
 }
 
 /*
@@ -207,25 +223,24 @@ body,
 .chat-messages .message .failed,
 .chat-messages .message .message-sent,
 .chat-messages .message .message-read {
-    margin-left: 70px !important;
+  margin-left: 70px !important;
 }
 
 .chat-messages .message .message-header .avatar,
 .chat-messages .message.system .message-header {
-    width: 70px !important;
+  width: 70px !important;
 }
 
 .ghost img {
-    right: 30px !important;
-    border-top: 6px solid $primary-background !important;
-    background-color: $primary-background !important;
+  right: 30px !important;
+  border-top: 6px solid $primary-background !important;
+  background-color: $primary-background !important;
 }
 
 .ghost,
 .ghost img {
-    display: none !important;
+  display: none !important;
 }
-
 
 /*
  * Emoji picker
@@ -235,16 +250,16 @@ body,
 .emoji-menu .emoji-menu-pointer,
 .emoji-menu .pack-switcher .slider-control,
 .emoji-menu .pack-switcher {
-    background-color: $popup-background !important;
-    color: $text-color !important;
+  background-color: $popup-background !important;
+  color: $text-color !important;
 }
 
 .emoji-menu .emoji-preview {
-    border-bottom: 5px solid $border-color !important;
+  border-bottom: 5px solid $border-color !important;
 }
 
 .emoji-menu .pack-container {
-    border-top: 5px solid $border-color !important;
+  border-top: 5px solid $border-color !important;
 }
 
 /*
@@ -252,29 +267,29 @@ body,
  */
 
 ::-webkit-scrollbar {
-    height: 10px !important;
-    width: 10px !important;
-    background: $scrollbar-background !important;
+  height: 10px !important;
+  width: 10px !important;
+  background: $scrollbar-background !important;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: $scrollbar-color !important;
-    border-radius: 1ex !important;
-    box-shadow: 0px 1px 2px $scrollbar-background !important;
-    -webkit-border-radius: 1ex !important;
-    -webkit-box-shadow: 0px 1px 2px $scrollbar-background !important;
+  background: $scrollbar-color !important;
+  border-radius: 1ex !important;
+  box-shadow: 0px 1px 2px $scrollbar-background !important;
+  -webkit-border-radius: 1ex !important;
+  -webkit-box-shadow: 0px 1px 2px $scrollbar-background !important;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: $scrollbar-hover !important;
-    border-radius: 1ex !important;
-    box-shadow: 0px 1px 2px $scrollbar-background !important;
-    -webkit-border-radius: 1ex !important;
-    -webkit-box-shadow: 0px 1px 2px $scrollbar-background !important;
+  background: $scrollbar-hover !important;
+  border-radius: 1ex !important;
+  box-shadow: 0px 1px 2px $scrollbar-background !important;
+  -webkit-border-radius: 1ex !important;
+  -webkit-box-shadow: 0px 1px 2px $scrollbar-background !important;
 }
 
 ::-webkit-scrollbar-corner {
-    background: $scrollbar-background !important;
+  background: $scrollbar-background !important;
 }
 
 /*
@@ -282,27 +297,21 @@ body,
  */
 
 .rainbow-text * {
-    background: linear-gradient(to right,
-            #6666ff,
-            #0099ff,
-            #00ff00,
-            #ff3399,
-            #6666ff);
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent !important;
-    animation: rainbow-text 6s ease-in-out infinite;
-    background-size: 400% 100%;
+  background: linear-gradient(to right, #6666ff, #0099ff, #00ff00, #ff3399, #6666ff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent !important;
+  animation: rainbow-text 6s ease-in-out infinite;
+  background-size: 400% 100%;
 }
 
 @keyframes rainbow-text {
+  0%,
+  100% {
+    background-position: 0 0;
+  }
 
-    0%,
-    100% {
-        background-position: 0 0;
-    }
-
-    50% {
-        background-position: 100% 0;
-    }
+  50% {
+    background-position: 100% 0;
+  }
 }
