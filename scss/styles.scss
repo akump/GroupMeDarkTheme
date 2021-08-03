@@ -137,11 +137,14 @@ body,
 .uib-year span,
 .glyphicon-chevron-right:before,
 .glyphicon-chevron-left:before,
-.calendar-event .title,
-.calendar-event .created-by,
-.calendar-event .date,
-.calendar-event .time-range span,
-.calendar-event .time-range {
+.calendar-list .calendar-event .title,
+.calendar-list .calendar-event .created-by,
+.calendar-list .calendar-event .date,
+.calendar-list .calendar-event .time-range span,
+.calendar-list .calendar-event .time-range,
+.calendar-list .rsvp span,
+.rsvp .options span,
+.view-event span {
   color: $dark-text-color !important;
 }
 
