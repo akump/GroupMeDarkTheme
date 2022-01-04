@@ -12,3 +12,8 @@ gulp.task('moveHtml', () => {
     return gulp.src('html/settings.html')
         .pipe(gulp.dest('dist'));
 });
+
+gulp.task('moveJs', () => {
+    return gulp.src('js/button.prod.min.js')
+        .pipe(gulp.dest('dist'));
+});
