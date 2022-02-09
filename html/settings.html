@@ -16,6 +16,7 @@
 
         .header {
             margin-top: 5px;
+            margin-bottom: 0;
             color: #00aff0
         }
 
@@ -42,7 +43,7 @@
         }
 
         .bmc-btn-container {
-            margin-bottom: 15px;
+            margin-bottom: 5px;
 
         }
 
@@ -51,6 +52,7 @@
             display: inline-block;
             width: 60px;
             height: 34px;
+            margin-top: 5px;
         }
 
         .switch input {
@@ -104,14 +106,19 @@
         .slider.round:before {
             border-radius: 50%;
         }
+
+        .text {
+            margin-bottom: 5px;
+            margin-top: 5px;
+        }
     </style>
 </head>
 
 <body>
     <div class="main-container">
         <h2 class="header">GroupMe Dark Theme Settings</h2>
-        <p>To highlight your own messages, enter your nicknames separated by a semicolon</p>
-        <p>Example: Andrew; pupperino prince 🐶👑; Brovid-19</p>
+        <p class="text">To highlight your own messages, enter your nicknames separated by a semicolon</p>
+        <p class="text">Example: Andrew; pupperino prince 🐶👑; Brovid-19</p>
         <input id="names-input" value="" />
         <div class="saved-area">
             <button id="save-button" type="button">Save</button>
@@ -123,8 +130,8 @@
             <span class="slider round"></span>
         </label>
         <span id="saved-text2"></span>
-        <br></br>
-        <h2 class="header">Loving the extension?</h2>
+        <h2 class="header" style="margin-bottom: 5px;">Loving the extension?</h2>
+        <p class="text">Any support, coffee or even a review on the Chrome web store helps! </p>
         <script type="text/javascript" src="./button.prod.min.js" data-name="bmc-button" data-slug="akump"
             data-color="#00aff0" data-emoji="" data-font="Cookie" data-text="Buy me a coffee"
             data-outline-color="#000000" data-font-color="#000000" data-coffee-color="#FFDD00"></script>
