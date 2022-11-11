@@ -40,7 +40,9 @@ body,
 .poll-create .layout,
 .poll-list,
 .poll-list .poll.poll-listing,
-.form-footer {
+.form-footer,
+.pinned-message,
+.highlight .chat-messages .popular-message .message {
   background-color: $primary-background !important;
 }
 
@@ -123,7 +125,11 @@ body,
 .rsvp span,
 .modal-body .content,
 .dropdown-menu > li > a,
-.poll-create .left-fields .optionAddBtn .btn-default {
+.poll-create .left-fields .optionAddBtn .btn-default,
+.sender-name,
+.dropdown-toggle svg,
+.pinned-message svg,
+.chat-messages > div > div {
   color: $text-color !important;
 }
 
@@ -317,4 +323,9 @@ body,
   50% {
     background-position: 100% 0;
   }
+}
+
+
+.pinned-message .text {
+  height: auto !important;
 }
