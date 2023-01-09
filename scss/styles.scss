@@ -42,7 +42,8 @@ body,
 .poll-list .poll.poll-listing,
 .form-footer,
 .pinned-message,
-.highlight .chat-messages .popular-message .message {
+.highlight .chat-messages .popular-message .message,
+.expansion-header {
   background-color: $primary-background !important;
 }
 
@@ -329,4 +330,16 @@ body,
 
 .pinned-message .text {
   height: auto !important;
+}
+
+.expansion-header {
+  border-bottom: 1px solid !important;
+}
+
+.expansion-header span {
+  color: $text-color !important;
+}
+
+.list-item.chat-list {
+  max-width: 100% !important;
 }
