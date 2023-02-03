@@ -43,7 +43,9 @@ body,
 .form-footer,
 .pinned-message,
 .highlight .chat-messages .popular-message .message,
-.expansion-header {
+.expansion-header,
+.list-item,
+.settings-header {
   background-color: $primary-background !important;
 }
 
@@ -58,7 +60,8 @@ body,
 .member:hover,
 .calendar-event .info-section,
 .calendar-event.event-attachment,
-.calendar-event.event-attachment .calendar-footer {
+.calendar-event.event-attachment .calendar-footer,
+.user-settings .setting-block {
   background-color: $lighter-background !important;
 }
 
@@ -130,7 +133,13 @@ body,
 .sender-name,
 .dropdown-toggle svg,
 .pinned-message svg,
-.chat-messages > div > div {
+.chat-messages > div > div,
+.list-title span,
+.user-settings .setting-block .settings-label,
+.settings-header h1,
+.groupme-list .list-menu,
+.dropdown-menu button span,
+.welcome h4 {
   color: $text-color !important;
 }
 
@@ -342,4 +351,8 @@ body,
 
 .list-item.chat-list {
   max-width: 100% !important;
+}
+
+#app {
+  opacity: 1 !important;
 }

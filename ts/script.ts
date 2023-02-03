@@ -1,19 +1,19 @@
 let usersNicknames: Array<string> = [];
-let cachedLength: number = 0;
+let cachedLength = 0;
 let useRainbowText = false;
 
 const highlightNameChecker = function () {
-  let nicknameElements: HTMLCollectionOf<Element> = document.getElementsByClassName('nickname');
+  const nicknameElements: HTMLCollectionOf<Element> = document.getElementsByClassName('nickname');
 
   if (nicknameElements.length !== cachedLength) {
     cachedLength = nicknameElements.length;
-    for (let element of nicknameElements) {
-      if (usersNicknames.includes(element.textContent)) {
-        let messageElement: Element = element.closest('.message');
+    for (const element of nicknameElements) {
+      if (usersNicknames.includes(element.textContent.trim().toLowerCase())) {
+        const messageElement: Element = element.closest('.message');
         if (messageElement) {
           messageElement.setAttribute('style', 'background-color: #292a2d !important;');
           if (useRainbowText) {
-            let [textElement] = messageElement.querySelectorAll('.message-text');
+            const [textElement] = messageElement.querySelectorAll('.message-text');
             if (textElement && textElement.classList) {
               textElement.classList.add("rainbow-text");
             }
@@ -32,13 +32,13 @@ chrome.storage.sync.get(['inputtedNicknames', 'rainbowTextEnabled'], function ({
   if (rainbowTextEnabled === undefined) {
     chrome.storage.sync.set({
       rainbowTextEnabled: false
-    }, () => { });
+    }, () => {});
     useRainbowText = false;
   } else {
     useRainbowText = rainbowTextEnabled;
   }
   if (inputtedNicknames) {
-    usersNicknames = inputtedNicknames.split(';').map(nickname => nickname.trim());
+    usersNicknames = inputtedNicknames.split(';').map(nickname => nickname.trim().toLowerCase());
     highlightNameChecker();
   }
 });
