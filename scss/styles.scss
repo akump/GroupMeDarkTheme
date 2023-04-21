@@ -45,7 +45,8 @@ body,
 .highlight .chat-messages .popular-message .message,
 .expansion-header,
 .list-item,
-.settings-header {
+.settings-header,
+.emoji-wysiwyg-editor {
   background-color: $primary-background !important;
 }
 
@@ -144,7 +145,8 @@ body,
 .welcome h4,
 .main-chat-name,
 .section-header,
-.reply .reply-message .name {
+.reply .reply-message .name,
+.message-composer .composer-layout .dropdown-menu-left li button span, .message-composer .composer-layout .dropdown-menu-left li .button span {
   color: $text-color !important;
 }
 
@@ -368,4 +370,8 @@ body,
 
 #tray .tray-header .actions .new-chat .dropdown-toggle {
   background: none;
+}
+
+.emoji-wysiwyg-editor {
+  border: 1px solid #37383a !important;
 }
