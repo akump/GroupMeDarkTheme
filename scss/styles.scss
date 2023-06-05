@@ -64,7 +64,10 @@ body,
 .calendar-event.event-attachment .calendar-footer,
 .user-settings .setting-block,
 .list-item.active button,
-.list-item:hover button {
+.list-item:hover button,
+.list-item:hover a,
+.list-item.active a,
+.dropdown-menu>li>a:hover {
   background-color: $lighter-background !important;
 }
 
