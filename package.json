@@ -1,9 +1,9 @@
 {
     "name": "groupmedarktheme",
-    "version": "1.2.20",
+    "version": "1.2.21",
     "description": "Dark theme for the GroupMe web application",
     "scripts": {
-        "build": "npx tsc && sass ./scss/styles.scss ./dist/styles.css && gulp moveHtml && gulp moveJs",
+        "build": "npx tsc && sass ./scss/styles.scss ./dist/styles.css && gulp moveHtml",
         "build-zip": "gulp",
         "ts-watch": "tsc -w",
         "scss-watch": "sass --no-source-map --watch scss/styles.scss:dist/styles.css"
