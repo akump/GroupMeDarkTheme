@@ -67,7 +67,7 @@ body,
 .list-item:hover button,
 .list-item:hover a,
 .list-item.active a,
-.dropdown-menu>li>a:hover {
+.dropdown-menu > li > a:hover {
   background-color: $lighter-background !important;
 }
 
@@ -149,7 +149,8 @@ body,
 .main-chat-name,
 .section-header,
 .reply .reply-message .name,
-.message-composer .composer-layout .dropdown-menu-left li button span, .message-composer .composer-layout .dropdown-menu-left li .button span {
+.message-composer .composer-layout .dropdown-menu-left li button span,
+.message-composer .composer-layout .dropdown-menu-left li .button span {
   color: $text-color !important;
 }
 
@@ -346,7 +347,6 @@ body,
   }
 }
 
-
 .pinned-message .text {
   height: auto !important;
 }
@@ -377,4 +377,13 @@ body,
 
 .emoji-wysiwyg-editor {
   border: 1px solid #37383a !important;
+}
+
+.tray-controls button,
+.user-navigation button {
+  color: white !important;
+}
+
+.pillar .tab.logo svg path {
+  fill: white !important;
 }
